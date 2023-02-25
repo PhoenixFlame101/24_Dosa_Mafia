@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "SeasonSense",
+    "slug": "SeasonSense",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8161ad91-7cfd-41c8-befc-fb731f83e870"
+      }
+    }
+  },
+  "name": "SeasonSense"
+}
