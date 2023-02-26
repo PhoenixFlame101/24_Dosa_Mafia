@@ -2,29 +2,28 @@
 https://www.iconfinder.com/icons/1243689/call_phone_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */
+import React, { useState } from "react";
 
-// function price() 
-// {
-//   // fetch(
-//   //   "https://zentrack.pagekite.me")
-//   //               .then((res) => res.json())
-//   //               .then((json) => {
-//   //                   this.setState({
-//   //                       items: json,
-//   //                       DataisLoaded: true
-//   //                   });
-//   //               })
+
+  // const [items, setItems] = useState("");
+
+  // const price = () =>
+  // {
+  //   fetch('https://api.example.com')
+  //   .then((response) => response.json())
+  //   .then((data) => {
+  //     setItems(data)
+  //   });
+  // }
   
-//   // console.log(items)
-// }
-import Axios from 'axios'
-const price = () =>
+  // console.log(price)
+  function price() 
 {
-  Axios.get("https://localhost:3636").then(
-    (response) => {
-      console.log(response)
-})
+  const price = Math.floor(Math.random() * 100) + 1;
+  return price;
 }
+
+
 
 export const storeProducts = [
   {
