@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {ProductProvider} from  './context';
+var cors = require('cors')
+app.use(cors());
 
 
 import * as serviceWorker from './serviceWorker';
